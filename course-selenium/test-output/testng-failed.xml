@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.course.selenium.baseTest.javascript.forms.RadioButtonTest">
+      <class name="org.course.selenium.elements.WebTablesTest">
         <methods>
           <include name="tearDown"/>
-          <include name="testRadioButton"/>
           <include name="setUp"/>
+          <include name="updateAgeOnWebTables"/>
           <include name="loadApplication"/>
         </methods>
-      </class> <!-- org.course.selenium.baseTest.javascript.forms.RadioButtonTest -->
+      </class> <!-- org.course.selenium.elements.WebTablesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

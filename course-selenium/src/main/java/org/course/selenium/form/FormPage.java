@@ -1,7 +1,9 @@
-package org.course.selenium;
+package org.course.selenium.form;
 
 import org.openqa.selenium.By;
 import static org.course.selenium.basePage.demoqa.javascript.JavaScriptUtility.*;
+
+import org.course.selenium.HomePage;
 
 public class FormPage extends HomePage{
 	
