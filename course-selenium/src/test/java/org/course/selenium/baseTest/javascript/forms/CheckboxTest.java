@@ -2,8 +2,8 @@ package org.course.selenium.baseTest.javascript.forms;
 
 import static org.testng.Assert.assertTrue;
 
-import org.course.selenium.PraticeFormPage;
 import org.course.selenium.baseTest.BaseTest;
+import org.course.selenium.form.PraticeFormPage;
 import org.testng.annotations.Test;
 
 public class CheckboxTest extends BaseTest{
