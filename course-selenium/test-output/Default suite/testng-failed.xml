@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.course.selenium.elements.WebTablesTest">
+      <class name="org.course.selenium.elements.LinksTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="updateAgeOnWebTables"/>
           <include name="loadApplication"/>
+          <include name="badRequestStatus"/>
         </methods>
-      </class> <!-- org.course.selenium.elements.WebTablesTest -->
+      </class> <!-- org.course.selenium.elements.LinksTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
