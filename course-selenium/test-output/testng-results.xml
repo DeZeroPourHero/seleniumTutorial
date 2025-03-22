@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-21T22:54:35 CET" name="Default suite" finished-at="2025-03-21T22:54:45 CET" duration-ms="9832">
+  <suite started-at="2025-03-22T15:01:03 CET" name="Default suite" finished-at="2025-03-22T15:01:10 CET" duration-ms="6815">
     <groups>
     </groups>
-    <test started-at="2025-03-21T22:54:35 CET" name="Default test" finished-at="2025-03-21T22:54:45 CET" duration-ms="9832">
-      <class name="org.course.selenium.elements.LinksTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.course.selenium.elements.LinksTest@5b218417]" started-at="2025-03-21T22:54:35 CET" name="setUp" finished-at="2025-03-21T22:54:37 CET" duration-ms="1896" status="PASS">
+    <test started-at="2025-03-22T15:01:03 CET" name="Default test" finished-at="2025-03-22T15:01:10 CET" duration-ms="6815">
+      <class name="org.course.selenium.widgets.SelectDropdownTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.course.selenium.widgets.SelectDropdownTests@5b218417]" started-at="2025-03-22T15:01:03 CET" name="setUp" finished-at="2025-03-22T15:01:04 CET" duration-ms="1490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.elements.LinksTest@5b218417]" started-at="2025-03-21T22:54:37 CET" name="loadApplication" finished-at="2025-03-21T22:54:40 CET" duration-ms="3254" status="PASS">
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.widgets.SelectDropdownTests@5b218417]" started-at="2025-03-22T15:01:04 CET" name="loadApplication" finished-at="2025-03-22T15:01:07 CET" duration-ms="2365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApplication -->
-        <test-method signature="badRequestStatus()[pri:0, instance:org.course.selenium.elements.LinksTest@5b218417]" started-at="2025-03-21T22:54:40 CET" name="badRequestStatus" finished-at="2025-03-21T22:54:42 CET" duration-ms="2277" status="PASS">
+        <test-method signature="testMultiSelectDropDown()[pri:0, instance:org.course.selenium.widgets.SelectDropdownTests@5b218417]" started-at="2025-03-22T15:01:07 CET" name="testMultiSelectDropDown" finished-at="2025-03-22T15:01:07 CET" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- badRequestStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.course.selenium.elements.LinksTest@5b218417]" started-at="2025-03-21T22:54:42 CET" name="tearDown" finished-at="2025-03-21T22:54:45 CET" duration-ms="2375" status="PASS">
+        </test-method> <!-- testMultiSelectDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.course.selenium.widgets.SelectDropdownTests@5b218417]" started-at="2025-03-22T15:01:07 CET" name="tearDown" finished-at="2025-03-22T15:01:10 CET" duration-ms="2331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.course.selenium.elements.LinksTest -->
+      </class> <!-- org.course.selenium.widgets.SelectDropdownTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

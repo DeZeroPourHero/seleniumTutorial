@@ -1,4 +1,4 @@
-package org.course.selenium.basePage.demoqa.javascript;
+package org.course.selenium.basePage.demoqa.javascript.utility;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

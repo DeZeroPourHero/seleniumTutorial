@@ -1,7 +1,8 @@
 package org.course.selenium.form;
 
 import org.openqa.selenium.By;
-import static org.course.selenium.basePage.demoqa.javascript.JavaScriptUtility.*;
+
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.*;
 
 import org.course.selenium.HomePage;
 
