@@ -1,7 +1,8 @@
 package org.course.selenium.element;
 
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.*;
+
 import org.openqa.selenium.By;
-import static org.course.selenium.basePage.demoqa.javascript.JavaScriptUtility.*;
 
 public class LinksPage extends ElementsPage{
 		private By linkResponse = By.id("linkResponse");

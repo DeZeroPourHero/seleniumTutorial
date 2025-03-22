@@ -1,8 +1,8 @@
 package org.course.selenium.baseTest;
 
 
-import static org.course.selenium.basePage.demoqa.javascript.JavaScriptUtility.*;
 import static org.course.selenium.basePage.BasePage.*;
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.*;
 
 import org.course.selenium.HomePage;
 import org.course.selenium.basePage.BasePage;

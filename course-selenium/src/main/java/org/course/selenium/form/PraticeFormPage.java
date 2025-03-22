@@ -1,7 +1,7 @@
 package org.course.selenium.form;
 
-import static org.course.selenium.basePage.demoqa.javascript.JavaScriptUtility.clickJsElement;
-import static org.course.selenium.basePage.demoqa.javascript.JavaScriptUtility.scroolToElementJs;
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.clickJsElement;
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.scroolToElementJs;
 
 import org.openqa.selenium.By;
 
