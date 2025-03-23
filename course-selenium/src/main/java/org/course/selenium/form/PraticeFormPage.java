@@ -14,6 +14,10 @@ public class PraticeFormPage extends FormPage{
 	   clickJsElement(femaleRadioButton);  
    }
    
+   public void clickFemaleRadioButtonForScreenshot() {
+	   clickElement(femaleRadioButton);  
+   }
+   
    public boolean isFemaleRadioButton() {
 	   return find(femaleRadioButton).isSelected();
    }
