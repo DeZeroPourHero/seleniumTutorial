@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.course.selenium.elements.LinksTest">
+      <class name="org.course.selenium.widgets.DateTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="loadApplication"/>
-          <include name="badRequestStatus"/>
+          <include name="selectDateTest"/>
         </methods>
-      </class> <!-- org.course.selenium.elements.LinksTest -->
+      </class> <!-- org.course.selenium.widgets.DateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
