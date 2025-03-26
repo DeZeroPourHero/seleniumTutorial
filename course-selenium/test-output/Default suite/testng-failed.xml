@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.course.selenium.screenshot.ScreenshotTest">
+      <class name="org.course.selenium.modalTests.ModalDialogTests">
         <methods>
           <include name="tearDown"/>
-          <include name="testClickingFemaleRadioButtonWhithoutScrool"/>
+          <include name="messageSmallModalTest"/>
           <include name="setUp"/>
           <include name="loadApplication"/>
           <include name="takeFailedResultScreenshot"/>
         </methods>
-      </class> <!-- org.course.selenium.screenshot.ScreenshotTest -->
+      </class> <!-- org.course.selenium.modalTests.ModalDialogTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

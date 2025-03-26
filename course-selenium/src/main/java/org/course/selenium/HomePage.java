@@ -5,6 +5,7 @@ import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptU
 import org.course.selenium.basePage.BasePage;
 import org.course.selenium.element.ElementsPage;
 import org.course.selenium.form.FormPage;
+import org.course.selenium.modaldialogs.ModalDialogsPage;
 import org.course.selenium.widgets.WidgetsPage;
 import org.openqa.selenium.By;
 
@@ -14,6 +15,8 @@ public class HomePage extends BasePage{
 	private By elementsCard = By.xpath("//div[@id='app']//h5[text()='Elements']");
 	
 	private By widgetsCard = By.xpath("//div[@id='app']//h5[text()='Widgets']");
+	
+	private By alertCard = By.xpath("//div[@id='app']//h5[contains(text(),'Alerts')]");
 	
 	
 	public FormPage goToFormsPage() {
@@ -32,6 +35,12 @@ public class HomePage extends BasePage{
 		scroolToElementJs(widgetsCard);
 		clickElement(widgetsCard);
 		return new WidgetsPage();
+	}
+	
+	public ModalDialogsPage goToModalDialogsPage() {
+		scroolToElementJs(alertCard);
+		clickElement(alertCard);
+		return new ModalDialogsPage();
 	}
 	
 	
