@@ -1,8 +1,8 @@
-package org.course.selenium.modaldialogs;
+package org.course.selenium.modaldialogsAlert;
 
 import org.openqa.selenium.By;
 
-public class PraticeModalDialogs extends ModalDialogsPage{
+public class PraticeModalDialogs extends ModalDialogsAlertPage{
 	private By smallModalButton = By.id("showSmallModal");
 	private By popupSmallModalButton = By.xpath("//div[contains(text(),'small modal')]");
 	private By closeSmallModalButton = By.id("closeSmallModal");

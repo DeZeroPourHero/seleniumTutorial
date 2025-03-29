@@ -5,7 +5,7 @@ import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptU
 import org.course.selenium.basePage.BasePage;
 import org.course.selenium.element.ElementsPage;
 import org.course.selenium.form.FormPage;
-import org.course.selenium.modaldialogs.ModalDialogsPage;
+import org.course.selenium.modaldialogsAlert.ModalDialogsAlertPage;
 import org.course.selenium.widgets.WidgetsPage;
 import org.openqa.selenium.By;
 
@@ -37,10 +37,10 @@ public class HomePage extends BasePage{
 		return new WidgetsPage();
 	}
 	
-	public ModalDialogsPage goToModalDialogsPage() {
+	public ModalDialogsAlertPage goToModalAlertDialogsPage() {
 		scroolToElementJs(alertCard);
 		clickElement(alertCard);
-		return new ModalDialogsPage();
+		return new ModalDialogsAlertPage();
 	}
 	
 	
