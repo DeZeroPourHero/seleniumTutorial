@@ -18,7 +18,7 @@ public class WebTablesPage extends ElementsPage{
 	
 	public String getAge(String email) {
 		By webTableAge = By.xpath("//div[text()='"+email+"']//preceding::div[1]");
-		return find(webTableAge).getText();
+		return getMessageByLocator(webTableAge);
 	}
 	
 	public void submitWebTablesPage() {

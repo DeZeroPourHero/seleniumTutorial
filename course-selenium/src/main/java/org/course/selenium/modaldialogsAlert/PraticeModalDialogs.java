@@ -12,7 +12,7 @@ public class PraticeModalDialogs extends ModalDialogsAlertPage{
 	}
 	
 	public String getMessageOnSmallModalButton() {
-		return find(popupSmallModalButton).getText();
+		return getMessageByLocator(popupSmallModalButton);
 	}
 	
 	public void clickOncloseSmallModalButton() {

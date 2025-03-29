@@ -15,4 +15,12 @@ public class SwitchToUtility extends Utility{
 	public static void acceptAlert() {
 		switchTo().alert().accept();
 	}
+	
+	public static void refusedAlert() {
+		switchTo().alert().dismiss();
+	}
+	
+	public static void fillAlert(String message) {
+		switchTo().alert().sendKeys(message);
+	}
 }
