@@ -33,5 +33,9 @@ public class BasePage {
 			e.printStackTrace();
 		}
 	}
+	
+	public String getMessageByLocator(By locator) {
+		return find(locator).getText();
+	}
 
 }
