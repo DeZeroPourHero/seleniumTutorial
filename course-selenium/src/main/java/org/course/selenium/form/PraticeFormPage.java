@@ -1,7 +1,6 @@
 package org.course.selenium.form;
 
-import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.clickJsElement;
-import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.scroolToElementJs;
+import static org.course.selenium.basePage.demoqa.javascript.utility.SwitchToUtility.*;
 
 import org.openqa.selenium.By;
 
@@ -10,8 +9,7 @@ public class PraticeFormPage extends FormPage{
    private By sportsHobby = By.id("hobbies-checkbox-1");
    
    public void clickFemaleRadioButton() {
-	   scroolToElementJs(femaleRadioButton);
-	   clickJsElement(femaleRadioButton);  
+	   clickItemMenu(femaleRadioButton);  
    }
    
    public void clickFemaleRadioButtonForScreenshot() {
@@ -24,8 +22,7 @@ public class PraticeFormPage extends FormPage{
    
    public void clickCheckboxSport() {
 	   if(!find(sportsHobby).isSelected()) {
-		   scroolToElementJs(sportsHobby);
-		   clickJsElement(sportsHobby);  
+		   clickItemMenu(sportsHobby); 
 	   }
    }
    
