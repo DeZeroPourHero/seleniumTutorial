@@ -1,9 +1,8 @@
 package org.course.selenium.widgets;
 
-import static org.course.selenium.basePage.demoqa.javascript.utility.SwitchToUtility.*;
+import static org.course.selenium.basePage.demoqa.javascript.utility.SwitchToUtility.clickItemMenu;
 
 import org.course.selenium.HomePage;
-import org.course.selenium.modaldialogsAlert.FramesMenuPage;
 import org.openqa.selenium.By;
 
 public class WidgetsPage extends HomePage{
