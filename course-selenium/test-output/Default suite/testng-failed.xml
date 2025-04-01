@@ -3,15 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.course.selenium.alerts.FramesTests">
+      <class name="org.course.selenium.windows.WindowsTest">
         <methods>
           <include name="tearDown"/>
+          <include name="getNewTabMessage"/>
           <include name="setUp"/>
           <include name="loadApplication"/>
+          <include name="getMessageWindowsTest"/>
           <include name="takeFailedResultScreenshot"/>
-          <include name="messageContentSmallFrameTest"/>
+          <include name="getNewWindowsUrlTest"/>
         </methods>
-      </class> <!-- org.course.selenium.alerts.FramesTests -->
+      </class> <!-- org.course.selenium.windows.WindowsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

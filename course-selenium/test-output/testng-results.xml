@@ -1,97 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-31T22:03:19 CEST" name="Default suite" finished-at="2025-03-31T22:03:32 CEST" duration-ms="12048">
+  <suite started-at="2025-04-01T21:04:10 CEST" name="Default suite" finished-at="2025-04-01T21:04:18 CEST" duration-ms="7919">
     <groups>
     </groups>
-    <test started-at="2025-03-31T22:03:19 CEST" name="Default test" finished-at="2025-03-31T22:03:32 CEST" duration-ms="12048">
-      <class name="org.course.selenium.alerts.FramesTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:19 CEST" name="setUp" finished-at="2025-03-31T22:03:22 CEST" duration-ms="2825" status="PASS">
+    <test started-at="2025-04-01T21:04:10 CEST" name="Default test" finished-at="2025-04-01T21:04:18 CEST" duration-ms="7919">
+      <class name="org.course.selenium.windows.WindowsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:10 CEST" name="setUp" finished-at="2025-04-01T21:04:12 CEST" duration-ms="1892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:22 CEST" name="loadApplication" finished-at="2025-03-31T22:03:25 CEST" duration-ms="3141" status="PASS">
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:12 CEST" name="loadApplication" finished-at="2025-04-01T21:04:14 CEST" duration-ms="2635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApplication -->
-        <test-method signature="getHeaderFrameTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:25 CEST" name="getHeaderFrameTest" finished-at="2025-03-31T22:03:26 CEST" duration-ms="406" status="PASS">
+        <test-method signature="getNewTabMessage()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:14 CEST" name="getNewTabMessage" finished-at="2025-04-01T21:04:15 CEST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getHeaderFrameTest -->
-        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:26 CEST" name="takeFailedResultScreenshot" finished-at="2025-03-31T22:03:26 CEST" duration-ms="2" status="PASS">
+        </test-method> <!-- getNewTabMessage -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:15 CEST" name="takeFailedResultScreenshot" finished-at="2025-04-01T21:04:15 CEST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getHeaderFrameTest status=SUCCESS method=FramesTests.getHeaderFrameTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a] output={null}]]]>
+                <![CDATA[[TestResult name=getNewTabMessage status=SUCCESS method=WindowsTest.getNewTabMessage()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeFailedResultScreenshot -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:26 CEST" name="loadApplication" finished-at="2025-03-31T22:03:26 CEST" duration-ms="520" status="PASS">
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:15 CEST" name="loadApplication" finished-at="2025-04-01T21:04:15 CEST" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApplication -->
-        <test-method signature="messageContentBigFrameTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:26 CEST" name="messageContentBigFrameTest" finished-at="2025-03-31T22:03:27 CEST" duration-ms="601" status="PASS">
+        <test-method signature="getNewWindowsUrlTest()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:15 CEST" name="getNewWindowsUrlTest" finished-at="2025-04-01T21:04:15 CEST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- messageContentBigFrameTest -->
-        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:27 CEST" name="takeFailedResultScreenshot" finished-at="2025-03-31T22:03:27 CEST" duration-ms="0" status="PASS">
+        </test-method> <!-- getNewWindowsUrlTest -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:15 CEST" name="takeFailedResultScreenshot" finished-at="2025-04-01T21:04:15 CEST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=messageContentBigFrameTest status=SUCCESS method=FramesTests.messageContentBigFrameTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a] output={null}]]]>
+                <![CDATA[[TestResult name=getNewWindowsUrlTest status=SUCCESS method=WindowsTest.getNewWindowsUrlTest()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeFailedResultScreenshot -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:27 CEST" name="loadApplication" finished-at="2025-03-31T22:03:28 CEST" duration-ms="802" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadApplication -->
-        <test-method signature="messageContentSmallFrameByWebElementTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:28 CEST" name="messageContentSmallFrameByWebElementTest" finished-at="2025-03-31T22:03:28 CEST" duration-ms="345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- messageContentSmallFrameByWebElementTest -->
-        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:28 CEST" name="takeFailedResultScreenshot" finished-at="2025-03-31T22:03:28 CEST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=messageContentSmallFrameByWebElementTest status=SUCCESS method=FramesTests.messageContentSmallFrameByWebElementTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeFailedResultScreenshot -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:28 CEST" name="loadApplication" finished-at="2025-03-31T22:03:28 CEST" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadApplication -->
-        <test-method signature="messageContentSmallFrameTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:28 CEST" name="messageContentSmallFrameTest" finished-at="2025-03-31T22:03:29 CEST" duration-ms="503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- messageContentSmallFrameTest -->
-        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:29 CEST" name="takeFailedResultScreenshot" finished-at="2025-03-31T22:03:29 CEST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=messageContentSmallFrameTest status=SUCCESS method=FramesTests.messageContentSmallFrameTest()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeFailedResultScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.course.selenium.alerts.FramesTests@1a75e76a]" started-at="2025-03-31T22:03:29 CEST" name="tearDown" finished-at="2025-03-31T22:03:32 CEST" duration-ms="2537" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.course.selenium.windows.WindowsTest@273444fe]" started-at="2025-04-01T21:04:15 CEST" name="tearDown" finished-at="2025-04-01T21:04:18 CEST" duration-ms="2337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.course.selenium.alerts.FramesTests -->
+      </class> <!-- org.course.selenium.windows.WindowsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
