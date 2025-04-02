@@ -10,7 +10,7 @@ public class WebTablesTest extends BaseTest{
 	public void updateAgeOnWebTables() {
 		var email = "alden@example.com";
 		var actualAge = "39";
-		var webTablesPage =  homePage.goToElementsPage().clickWebTables();
+		var webTablesPage =  homePage.goToElementsPage().clickWebTablesMenuItem();
 		webTablesPage.clickEdit(email);
 		webTablesPage.setAge(actualAge);
 		webTablesPage.submitWebTablesPage();
