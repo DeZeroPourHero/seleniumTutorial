@@ -13,6 +13,6 @@ public class ProgressBarTest extends BaseTest{
 	  String expectedPourcentage = "100%";
 	  progressBarPage.clickOnStartButton();
 	  String actualPourcentage = progressBarPage.getProgressValue("100", 30);
-	  assertEquals(actualPourcentage, expectedPourcentage,"\n Value Is Not  100% \n");
+	  assertEquals(actualPourcentage, expectedPourcentage,"\n Value is Not  100% \n");
 	}
 }
