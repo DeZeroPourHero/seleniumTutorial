@@ -48,4 +48,8 @@ public class SwitchToUtility extends Utility{
 	public static void switchToDefaultContent() {
 		switchTo().defaultContent();
 	}
+	
+	public static void switchToHandle(String handle) {
+		driver.switchTo().window(handle);
+	}
 }

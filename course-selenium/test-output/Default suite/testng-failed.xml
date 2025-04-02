@@ -6,8 +6,10 @@
       <class name="org.course.selenium.widgets.ProgressBarTest">
         <methods>
           <include name="tearDown"/>
+          <include name="getNewTabMessage"/>
           <include name="setUp"/>
           <include name="loadApplication"/>
+          <include name="getMessageWindowsTest"/>
           <include name="takeFailedResultScreenshot"/>
           <include name="testProgressBar"/>
         </methods>
