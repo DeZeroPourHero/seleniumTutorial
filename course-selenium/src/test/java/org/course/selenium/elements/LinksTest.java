@@ -11,7 +11,7 @@ public class LinksTest extends BaseTest{
 	@Test
 	public void badRequestStatus() {
 		String badRequestLink = "bad-request";
-		LinksPage linksPage = homePage.goToElementsPage().clickLinksPage();
+		LinksPage linksPage = homePage.goToElementsPage().clickMenuItem();
 		linksPage.clickOnlink(badRequestLink);
 	    String actualResponseMessage = linksPage.getLinkResponse();
 		assertTrue(actualResponseMessage.contains("400") && actualResponseMessage.contains("Bad Request"));
