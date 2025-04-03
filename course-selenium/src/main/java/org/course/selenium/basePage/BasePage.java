@@ -1,5 +1,7 @@
 package org.course.selenium.basePage;
 
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.scroolToElementJs;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,8 +36,12 @@ public class BasePage {
 		}
 	}
 	
-	public String getMessageByLocator(By locator) {
+	protected String getMessageByLocator(By locator) {
 		return find(locator).getText();
 	}
-
+	
+	protected void  clickItemMenuScrool(By itemLocator) {
+		scroolToElementJs(itemLocator);
+		clickElement(itemLocator);
+	}
 }

@@ -1,7 +1,5 @@
 package org.course.selenium.widgets;
 
-import static org.course.selenium.basePage.demoqa.javascript.utility.SwitchToUtility.clickItemMenu;
-
 import org.course.selenium.HomePage;
 import org.openqa.selenium.By;
 
@@ -12,12 +10,12 @@ public class WidgetsPage extends HomePage{
 
 	
 	public SelectMenuPage clickOnSelectMenu() {
-		clickItemMenu(selectMenuItem);
+		clickItemMenuScrool(selectMenuItem);
 		return new SelectMenuPage();
 	}
 	
 	public DatePikerMenuPage clickOnDatePikerMenu() {
-		clickItemMenu(datePikerMenuItem);
+		clickItemMenuScrool(datePikerMenuItem);
 		return new DatePikerMenuPage();
 	}
 	

@@ -2,7 +2,7 @@ package org.course.selenium.form;
 
 import org.openqa.selenium.By;
 
-import static org.course.selenium.basePage.demoqa.javascript.utility.SwitchToUtility.*;
+import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptUtility.*;
 
 import org.course.selenium.HomePage;
 
@@ -17,7 +17,7 @@ public class FormPage extends HomePage{
 	
 	
 	public PraticeFormPage clickPraticeForm(){
-		clickItemMenu(praticeFormMenuItem);
+		clickItemMenuClickJs(praticeFormMenuItem);
 		return new PraticeFormPage();
 	}
 

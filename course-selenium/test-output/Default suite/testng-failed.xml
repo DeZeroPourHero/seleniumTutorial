@@ -3,17 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.course.selenium.widgets.ProgressBarTest">
+      <class name="org.course.selenium.baseTest.javascript.forms.RadioButtonTest">
         <methods>
           <include name="tearDown"/>
-          <include name="getNewTabMessage"/>
+          <include name="testRadioButton"/>
           <include name="setUp"/>
           <include name="loadApplication"/>
-          <include name="getMessageWindowsTest"/>
           <include name="takeFailedResultScreenshot"/>
-          <include name="testProgressBar"/>
         </methods>
-      </class> <!-- org.course.selenium.widgets.ProgressBarTest -->
+      </class> <!-- org.course.selenium.baseTest.javascript.forms.RadioButtonTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

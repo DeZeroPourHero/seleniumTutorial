@@ -17,4 +17,10 @@ public class JavaScriptUtility extends Utility{
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", element);
 	}
+	
+	public static void  clickItemMenuClickJs(By itemLocator) {
+		scroolToElementJs(itemLocator);
+		clickJsElement(itemLocator);
+	}
+
 }
