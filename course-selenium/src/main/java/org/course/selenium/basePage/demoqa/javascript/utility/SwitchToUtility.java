@@ -40,11 +40,6 @@ public class SwitchToUtility extends Utility{
 		driver.switchTo().frame(name);
 	}
 	
-	public static void  clickItemMenu(By itemLocator) {
-		scroolToElementJs(itemLocator);
-		driver.findElement(itemLocator).click();
-	}
-	
 	public static void switchToDefaultContent() {
 		switchTo().defaultContent();
 	}

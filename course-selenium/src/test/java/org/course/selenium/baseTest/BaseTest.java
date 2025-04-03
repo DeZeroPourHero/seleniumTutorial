@@ -5,6 +5,8 @@ import static org.course.selenium.basePage.demoqa.javascript.utility.JavaScriptU
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
+
 import org.openqa.selenium.io.FileHandler;
 
 import org.course.selenium.HomePage;
@@ -29,6 +31,7 @@ public class BaseTest {
 	public void setUp() {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
+	//	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
 
 	@BeforeMethod
