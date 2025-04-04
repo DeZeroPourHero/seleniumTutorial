@@ -2,39 +2,39 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-03T18:20:28 CEST" name="Default suite" finished-at="2025-04-03T18:20:36 CEST" duration-ms="8518">
+  <suite started-at="2025-04-03T20:50:30 CEST" name="Default suite" finished-at="2025-04-03T20:50:39 CEST" duration-ms="8947">
     <groups>
     </groups>
-    <test started-at="2025-04-03T18:20:28 CEST" name="Default test" finished-at="2025-04-03T18:20:36 CEST" duration-ms="8518">
-      <class name="org.course.selenium.widgets.SliderTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:org.course.selenium.widgets.SliderTest@16eb3ea3]" started-at="2025-04-03T18:20:28 CEST" name="setUp" finished-at="2025-04-03T18:20:29 CEST" duration-ms="1691" status="PASS">
+    <test started-at="2025-04-03T20:50:30 CEST" name="Default test" finished-at="2025-04-03T20:50:39 CEST" duration-ms="8947">
+      <class name="org.course.selenium.elements.TextBoxTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.course.selenium.elements.TextBoxTests@16eb3ea3]" started-at="2025-04-03T20:50:30 CEST" name="setUp" finished-at="2025-04-03T20:50:33 CEST" duration-ms="2558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.widgets.SliderTest@16eb3ea3]" started-at="2025-04-03T18:20:29 CEST" name="loadApplication" finished-at="2025-04-03T18:20:33 CEST" duration-ms="3833" status="PASS">
+        <test-method is-config="true" signature="loadApplication()[pri:0, instance:org.course.selenium.elements.TextBoxTests@16eb3ea3]" started-at="2025-04-03T20:50:33 CEST" name="loadApplication" finished-at="2025-04-03T20:50:36 CEST" duration-ms="3188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadApplication -->
-        <test-method signature="sliderTest()[pri:0, instance:org.course.selenium.widgets.SliderTest@16eb3ea3]" started-at="2025-04-03T18:20:33 CEST" name="sliderTest" finished-at="2025-04-03T18:20:34 CEST" duration-ms="650" status="PASS">
+        <test-method signature="setWholeFIeldsTextBoxPageTest()[pri:0, instance:org.course.selenium.elements.TextBoxTests@16eb3ea3]" started-at="2025-04-03T20:50:36 CEST" name="setWholeFIeldsTextBoxPageTest" finished-at="2025-04-03T20:50:37 CEST" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sliderTest -->
-        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.widgets.SliderTest@16eb3ea3]" started-at="2025-04-03T18:20:34 CEST" name="takeFailedResultScreenshot" finished-at="2025-04-03T18:20:34 CEST" duration-ms="1" status="PASS">
+        </test-method> <!-- setWholeFIeldsTextBoxPageTest -->
+        <test-method is-config="true" signature="takeFailedResultScreenshot(org.testng.ITestResult)[pri:0, instance:org.course.selenium.elements.TextBoxTests@16eb3ea3]" started-at="2025-04-03T20:50:37 CEST" name="takeFailedResultScreenshot" finished-at="2025-04-03T20:50:37 CEST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sliderTest status=SUCCESS method=SliderTest.sliderTest()[pri:0, instance:org.course.selenium.widgets.SliderTest@16eb3ea3] output={null}]]]>
+                <![CDATA[[TestResult name=setWholeFIeldsTextBoxPageTest status=SUCCESS method=TextBoxTests.setWholeFIeldsTextBoxPageTest()[pri:0, instance:org.course.selenium.elements.TextBoxTests@16eb3ea3] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeFailedResultScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.course.selenium.widgets.SliderTest@16eb3ea3]" started-at="2025-04-03T18:20:34 CEST" name="tearDown" finished-at="2025-04-03T18:20:36 CEST" duration-ms="2314" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.course.selenium.elements.TextBoxTests@16eb3ea3]" started-at="2025-04-03T20:50:37 CEST" name="tearDown" finished-at="2025-04-03T20:50:39 CEST" duration-ms="2343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- org.course.selenium.widgets.SliderTest -->
+      </class> <!-- org.course.selenium.elements.TextBoxTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
